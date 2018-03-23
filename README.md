@@ -63,5 +63,4 @@ you can train on 200 examples and test on 10 as I have to show how the different
 
 
 [6] Requirements:
-Numpy, scipy, sklearn, skimage, h5py, keras and tensorflow for Python3
-
+pip3 install -r requirements.txt
