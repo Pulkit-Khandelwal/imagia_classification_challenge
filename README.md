@@ -8,23 +8,23 @@ Extract the file and yo should get a folder named data. Now, download the projec
 
 [2] The data should be organized as follow:
 
-/code/
+     /code/
 
-/data/
+     /data/
 
-     /images
-     
-     /annotation
-     
-     /lists
-     
-          /file_list.mat
-          
-          /train_list.mat
-          
-          /test_list.mat
-          
-     labels_dict.pickle
+          /images
+
+          /annotation
+
+          /lists
+
+               /file_list.mat
+
+               /train_list.mat
+
+               /test_list.mat
+
+          labels_dict.pickle
      
 
 
