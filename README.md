@@ -1,7 +1,7 @@
 
 
 [1] Download the data from the drive.
-Here is the link: 
+Here is the link: https://drive.google.com/file/d/1IbHpqU9KnHiuitOTz4m8YXtCot2a7RgN/view?usp=sharing
 
 Extract the file and yo should get a folder named data. Now, download the project from gitHub and extract it. Copy the "data" folder to this folder.
 
