@@ -1,3 +1,22 @@
+Architectural choices:
+
+1. Pre-trained models:
+    Resnet50
+    InceptionNet
+    Xception
+    Vgg16
+    
+2. Transfer learning and Fine Tuning on Xception Net
+ 
+3. Make your own ConvNet model from scratch
+
+
+I have used state of the art classification architectures. But, have used transfer learning and fine tuning as the crux of the
+model. The given data is part of imagenet. Architectures 1-4 have been trained on imagenet and the weights are easily available on Keras of any other framework. Transfer learning is used to initilaize weights of the network and serves as the base model. Then using Fine Tuning layers can be refined and trained by freezing some other part of the network. Usually the top layers are fine tuned not we should make sure that the weights of the lower layers are not perturbed. Else this might cause the network to to go crazy with gradient mismatch.
+
+I have also evaluated results on some pre-trained network directly without any form of tuning. Lastly for comparison, one can also train the network from scratch. Though this is not recommended if one has a network which has been trained on similar network. Each image has been cropped and the entire train dataset is normalized with zero mean and unit variance. I have not done any kind of data augmentation because the data is already large enough for our purposes.
+
+I have created nice pandas dataframes which you might find in the code. I have made an interface to bind all the code together. I focused more on neatness of the code and network choices. Due to constraint of resources I could not train the network on the entire dataset for the Transfer Leanring section; and have only tested on a small section. But, **main.py** runs it for you on the entire dataset both for train and test dataset. If you want, I can set up an account on digitalocean and train it there.
 
 
 [1] Download the data from the drive.
