@@ -28,7 +28,7 @@ Extract the file and yo should get a folder named data. Now, download the projec
      
 
 
-[3] labels_dict.pickle is dictionary which maps the integer labels 1,2,3,.....120 to their corresponding breed of dogs.
+[3] labels_dict.pickle is dictionary which maps the integer labels 1,2,3,.....,120 to their corresponding breed of dogs.
 
 [4] Run main.py file to train and test how Transfer Learning and Fine Tuning works.
 
