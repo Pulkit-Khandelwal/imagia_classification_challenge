@@ -30,7 +30,7 @@ Extract the file and yo should get a folder named data. Now, download the projec
 
 [3] labels_dict.pickle is dictionary which maps the integer labels 1,2,3,.....,120 to their corresponding breed of dogs.
 
-[4] Run main.py file to train and test how Transfer Learning and Fine Tuning works.
+[4] The code is written in the form of a nice interface with all docstrings in place for every method, class and module. Run main.py file to train and test how Transfer Learning and Fine Tuning works.
 
 We will Transfer Learn and Fine Tune the xCeption network. Also, refer to the Jupyter Notebook for more examples.
 
