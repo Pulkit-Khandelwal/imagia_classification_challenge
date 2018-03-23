@@ -8,6 +8,7 @@ Now, download the project from gitHub and extract it. Copy the "data" folder to 
 
 [2] The data should be organized as follow:
 /code/
+
 /data/
      /images
      /annotation
