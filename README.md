@@ -16,6 +16,8 @@ model. The given data is part of imagenet. Architectures 1-4 have been trained o
 
 I have also evaluated results on some pre-trained network directly without any form of tuning. Lastly for comparison, one can also train the network from scratch. Though this is not recommended if one has a network which has been trained on similar network. Each image has been cropped and the entire train dataset is normalized with zero mean and unit variance. I have not done any kind of data augmentation because the data is already large enough for our purposes.
 
+**Results**: The accuracy on the test set of 8500 images is **92.5 %**. This was obtained via Inception_V3 network architecture.
+
 I have created nice pandas dataframes which you might find in the code. I have made an interface to bind all the code together. I focused more on neatness of the code and network choices. I recommend you to go through the **code** folder to get an idea of how the code is structured. All the information can found in the docstrings which I have tried to document well. Due to constraint of resources I could not train the network on the entire dataset for the Transfer Leanring section; and have only tested on a small section. But, **main.py** runs it for you on the entire dataset both for train and test dataset. If you want, I can set up an account on digitalocean and train it there.
 
 
